@@ -1,5 +1,8 @@
 header {
   display: flex;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
   justify-content: space-between;
   align-items: center;
   background-color: #1B1B1B;
@@ -86,6 +89,9 @@ header img {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .welcome_image {
@@ -214,7 +220,7 @@ header img {
   height: 138.69px;
   background-color: rgb(123, 123, 123);
   color: rgb(255, 255, 255);
-  font-size: calc(22px + 2vw);
+  font-size: calc(33px + 1vw);
   font-weight: 700;
 }
 .offer_divs .offer_items div:after {
@@ -267,6 +273,9 @@ header img {
   }
 }
 .example {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
   padding: 350px 0 0 0;
 }
 .example h1 {
@@ -349,6 +358,9 @@ header img {
   }
 }
 footer {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
   box-shadow: 0px -5px 11px 0px rgba(0, 0, 0, 0.15), 0px -20px 20px 0px rgba(0, 0, 0, 0.13), 0px -46px 28px 0px rgba(0, 0, 0, 0.08), 0px -82px 33px 0px rgba(0, 0, 0, 0.02), 0px -128px 36px 0px rgba(0, 0, 0, 0);
   margin-top: 100px;
   border-top-left-radius: 80px;

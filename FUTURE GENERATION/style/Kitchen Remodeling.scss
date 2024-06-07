@@ -1,6 +1,8 @@
 header {
     display: flex;
-
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
     justify-content: space-between;
     align-items: center;
     background-color: #1B1B1B;
@@ -89,6 +91,9 @@ header {
     display: flex;
     justify-content: space-between;
     overflow: hidden;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
 }
 .welcome_image {
     margin-top: 70px;
@@ -214,7 +219,7 @@ header {
             height: 138.69px;
             background-color: rgba(123, 123, 123, 1);
             color: rgba(255, 255, 255, 1);
-            font-size: calc(22px + 24 * (100vw / 1200));
+            font-size: calc(33px + 12 * (100vw / 1200));
             font-weight: 700;
         }
         div:after {
@@ -274,6 +279,9 @@ header {
 }
 //------------------------------------Example--------------------------------------
 .example {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
     h1 {
         font-size: calc(17px + 30 * (100vw / 1200));
         font-weight: 700;
@@ -353,6 +361,9 @@ header {
 }
 //-----------------------------------Footer-----------------------------
 footer {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
     box-shadow: 0px -5px 11px 0px rgba(0, 0, 0, 0.15),
     0px -20px 20px 0px rgba(0, 0, 0, 0.13),
     0px -46px 28px 0px rgba(0, 0, 0, 0.08),
