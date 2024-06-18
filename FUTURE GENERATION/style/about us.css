@@ -207,12 +207,20 @@ header img {
     display: flex;
     margin: 0 auto;
   }
+  .welcome_text {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 550px) {
+  .welcome_text {
+    margin-left: 5px;
+  }
 }
 .information {
   max-width: 1920px;
   width: 95%;
   margin: 0 auto;
-  padding: 150px 20px;
+  padding: 150px 0px;
   background-color: #fff;
 }
 .information div {
@@ -271,6 +279,12 @@ header img {
 @media (max-width: 850px) {
   .information {
     margin-left: 30px;
+    padding-top: 50px;
+  }
+}
+@media (max-width: 550px) {
+  .information {
+    margin-left: 10px;
   }
 }
 .start {
@@ -280,7 +294,7 @@ header img {
   width: 100%;
   max-width: 1256px;
   border-radius: 60px;
-  background: url(../images/about_us/start/background.svg);
+  background: url(../images/about_us/start/background.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -460,6 +474,7 @@ header img {
   justify-content: space-between;
 }
 .example_images img {
+  border-radius: 10%;
   width: 276px;
   height: 368px;
 }
@@ -499,6 +514,9 @@ header img {
   }
 }
 @media (max-width: 670px) {
+  .example {
+    padding: 150px 0;
+  }
   .example_images img {
     width: 195.62px;
     height: 260.35px;
@@ -524,7 +542,6 @@ header img {
   max-width: 1920px;
   width: 95%;
   margin: 0 auto;
-  padding: 30px;
   overflow: hidden;
 }
 .says h1 {
@@ -552,7 +569,6 @@ header img {
   width: 671px;
   height: 387px;
   border-radius: 40px;
-  box-shadow: 0 20px 44px 0 rgba(0, 0, 0, 0.1), 0 30px 30px 0 rgba(0, 0, 0, 0.1), 0 500px 507px 0 rgba(0, 0, 0, 0.1);
 }
 .says_content p {
   font-size: 20px;
@@ -562,8 +578,7 @@ header img {
 }
 
 .says_grade {
-  margin-top: -30px;
-  margin-left: -38px;
+  margin-left: 25px;
   margin-bottom: 15px;
   display: flex;
   align-items: center;

@@ -189,12 +189,13 @@ header {
 }
 //---------------------------------------Offer-------------------------
 .offers {
+    overflow: hidden;
     margin: 0 auto;
     width: 100%;
     max-width: 1920px;
 }
 .offer_divs {
-    background: url(../images/Kitchen_Remodeling/offers/background.svg);
+    background: url(../images/Kitchen_Remodeling/offers/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -206,7 +207,7 @@ header {
     height: 1104px;
     img {
         position: absolute;
-        max-width: 751px;
+        max-width: 576px;
         width: 100%;
         right: -50px;
         top: -120px;
@@ -286,6 +287,7 @@ header {
 }
 //------------------------------------Example--------------------------------------
 .example {
+    overflow: hidden;
     margin: 0 auto;
     width: 100%;
     max-width: 1920px;
@@ -314,7 +316,8 @@ header {
     img {
         width: 100%;
         max-width: 1015.63px;
-        height: 524.55px;
+        max-height: 524.55px;
+        padding-bottom: 10px;
     }
     #example_active_image {
         position: absolute;
@@ -322,6 +325,12 @@ header {
         left: 50%;
         transform: translate(-50%, -0%);
     }
+}
+#example_first_image {
+    margin-left: -50%;
+}
+#example_last_image {
+    margin-right: -50%;
 }
 .example_buttons {
     display: flex;
@@ -364,6 +373,11 @@ header {
     }
     .example_buttons {
         margin-top: 0;
+    }
+}
+@media (max-width: 768px) {
+    .example {
+        padding-top: 100px;
     }
 }
 //-----------------------------------Footer-----------------------------

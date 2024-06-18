@@ -98,6 +98,7 @@ header {
 .welcome_image {
     margin-top: 70px;
     margin-right: 7%;
+    border-radius: 10%;
 }
 .welcome_text {
     max-width: 676px;
@@ -184,7 +185,7 @@ header {
         margin: 70px 22px;
     }
     .welcome_text {
-        margin: 100px 22px;
+        margin: 50px 22px;
     }
 }
 //---------------------------------------Offer-------------------------
@@ -194,7 +195,7 @@ header {
     max-width: 1920px;
 }
 .offer_divs {
-    background: url(../images/home_remodeling/offers/background.svg);
+    background: url(../images/home_remodeling/offers/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -287,6 +288,7 @@ header {
     margin: 0 auto;
     width: 100%;
     max-width: 1920px;
+    overflow: hidden;
     h1 {
         font-size: calc(17px + 30 * (100vw / 1200));
         font-weight: 700;
@@ -299,7 +301,7 @@ header {
 }
 .example_line {
     margin: 0 auto;
-    max-width: 1006.77px;
+    max-width: 920px;
     width: 100%;
     height: 2.95px;
     background-color: rgba(246, 128, 0, 1);
@@ -320,6 +322,12 @@ header {
         left: 50%;
         transform: translate(-50%, -0%);
     }
+}
+#example_first_image {
+    margin-left: -50%;
+}
+#example_last_image {
+    margin-right: -50%;
 }
 .example_buttons {
     display: flex;
@@ -362,6 +370,12 @@ header {
     }
     .example_buttons {
         margin-top: 0;
+    }
+}
+@media (max-width: 768px) {
+    .example {
+        padding-top: 100px;
+
     }
 }
 //-----------------------------------Footer-----------------------------

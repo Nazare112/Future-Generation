@@ -97,6 +97,7 @@ header img {
 .welcome_image {
   margin-top: 70px;
   margin-right: 7%;
+  border-radius: 10%;
 }
 
 .welcome_text {
@@ -185,7 +186,7 @@ header img {
     margin: 70px 22px;
   }
   .welcome_text {
-    margin: 100px 22px;
+    margin: 50px 22px;
   }
 }
 .offers {
@@ -195,7 +196,7 @@ header img {
 }
 
 .offer_divs {
-  background: url(../images/home_remodeling/offers/background.svg);
+  background: url(../images/home_remodeling/offers/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -282,6 +283,7 @@ header img {
   margin: 0 auto;
   width: 100%;
   max-width: 1920px;
+  overflow: hidden;
   padding: 350px 0 0 0;
 }
 .example h1 {
@@ -295,7 +297,7 @@ header img {
 
 .example_line {
   margin: 0 auto;
-  max-width: 1006.77px;
+  max-width: 920px;
   width: 100%;
   height: 2.95px;
   background-color: rgb(246, 128, 0);
@@ -317,6 +319,14 @@ header img {
   top: 97px;
   left: 50%;
   transform: translate(-50%, 0%);
+}
+
+#example_first_image {
+  margin-left: -50%;
+}
+
+#example_last_image {
+  margin-right: -50%;
 }
 
 .example_buttons {
@@ -361,6 +371,11 @@ header img {
   }
   .example_buttons {
     margin-top: 0;
+  }
+}
+@media (max-width: 768px) {
+  .example {
+    padding-top: 100px;
   }
 }
 footer {

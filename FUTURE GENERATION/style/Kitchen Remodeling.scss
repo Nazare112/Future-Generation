@@ -98,6 +98,7 @@ header {
 .welcome_image {
     margin-top: 70px;
     margin-right: 7%;
+    border-radius: 10%;
 }
 .welcome_text {
     max-width: 676px;
@@ -188,13 +189,17 @@ header {
     }
 }
 //---------------------------------------Offer-------------------------
+.offers {
+    overflow: hidden;
+}
 .offer_divs {
-    background: url(../images/Kitchen_Remodeling/offers/background.svg);
+    background: url(../images/Kitchen_Remodeling/offers/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: 0px auto;
     width: 100%;
+    padding-bottom: 124px;
     max-width: 1320px;
     border-radius: 200px, 191px, 0px, 0px;
     position: relative;
@@ -279,6 +284,7 @@ header {
 }
 //------------------------------------Example--------------------------------------
 .example {
+    overflow: hidden;
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
@@ -316,6 +322,14 @@ header {
         transform: translate(-50%, -0%);
     }
 }
+
+#example_first_image {
+    margin-left: -50%;
+}
+#example_last_image {
+    margin-right: -50%;
+}
+
 .example_buttons {
     display: flex;
     justify-content: center;
